@@ -1,0 +1,191 @@
+@font-face {
+  font-family: 'lovelo-black';
+  src: url('../fonts/lovelo-black.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'lovelo-line-bold';
+  src: url('../fonts/lovelo-line-bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'open-sans';
+  src: url('../fonts/opensans-regular.ttf') format('truetype');
+}
+
+.lovelo-black-font
+{
+    font-family: 'lovelo-black', Arial, sans-serif;
+}
+
+.lovelo-line-bold-font
+{
+    font-family: 'lovelo-line-bold', Arial, sans-serif;
+}
+
+.open-sans-regular-font
+{
+    font-family: 'open-sans', Arial, sans-serif;
+}
+
+body
+{
+    background-color: #FFF;
+    font-family: 'open-sans', Arial, sans-serif;
+}
+
+body .container-fluid
+{
+    min-height: calc(100vh - 92px);
+}
+
+hr
+{
+    margin: 0 !important;
+}
+
+.font-16
+{
+    font-size: 16px !important;
+}
+
+.card
+{
+    background: #fff;
+    border-radius: 12px;
+    /*border: 1px solid rgba(0, 0, 0, .24);*/        
+    height: 360px;        
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-link:hover
+{
+    text-decoration: none;
+}
+
+.card-image
+{
+    width: 100%;
+    height: 160px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-image img
+{
+    border-radius: 12px 12px 0 0;
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.card-title
+{
+    padding: 8px;
+    font-weight: bolder;
+    width: 100%;
+    max-height: 60px;
+    overflow: hidden;
+}
+
+.card-desc
+{
+    padding: 8px;
+    width: 100%;
+    color: #888;
+    max-height: 96px;
+    overflow: hidden;
+}
+
+.card-label
+{
+    padding: 8px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid #EEE;
+}
+
+.label
+{
+    display: inline-block;
+    background-color: #DDD;
+    color: #000;
+    border-radius: 12px;
+    text-align: center;
+    padding: 4px 12px;
+    font-size: 12px;
+}
+
+.contribution-label
+{
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, .72);    
+    padding: 2px 8px;
+    color: #FFF;
+    z-index: 999;
+}
+
+.special-link, .special-link:hover, .special-link:focus
+{
+    color: yellow !important;
+}
+
+.white
+{
+    color: #FFF !important;
+}
+
+.jumbotron
+{    
+    padding-left: 24px;
+    padding-right: 24px;
+    background: -webkit-linear-gradient(left top, blue , red); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, blue , red); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, blue , red); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, blue , red); /* Standard syntax (must be last) */
+}
+
+.jumbotron-desc
+{
+    padding: 8px 12px;
+    display: inline-block;
+    border-radius: 12px;    
+}
+
+.blur
+{
+    background-color: rgba(255, 255, 255, 0.24);
+}
+
+.social-media
+{
+    display: inline-block;
+}
+
+.soc-med-icon
+{
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+    border-radius: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+footer
+{
+    height: 72px;
+    text-align: center;
+    color: #888;
+    padding: 8px;    
+}
